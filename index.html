@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="title">
+<p><b>Hangman</b></p>
+</div>
+
+<body onload="setUpPage()"></body>
+
+
+<!---"FrontPage" class-->
+
+<button id="startGame" class="FrontPage" onclick="startGame()">Start Game!</button>
+
+<select class='FrontPage' id="chooseDifficulty">
+    <option value=1>Easy</option>
+    <option value=2>Medium</option>
+    <option value=3>Hard</option>
+</select>
+
+
+<!--"game" class-->
+
+<button id="reStart" class="game" onclick="setUpPage()">Start Over</button>
+
+<div id="HangmanImage" class="game">
+
+</div>
+
+<div id="letters" class="game"></div>
+
+<select class='game' id="ChooseLetter" onChange="playGame()">
+</select>
+
+<div id="otherLetters" class="game"><p><u>Letters Guessed</u></p></div>
+
+<div id="Chances" class="game"><p><u>Chances Left</u></p></div>
+
+
+<!--"Won" class-->
+<div id="winMessage" class="Won">YOU WON!!!!</div>
+
+
+<!--"lost" class-->
+<div id="lostMessage" class="lost">Ya... well better luck next time I guess.</div>
+<div id="turnDown" class="lost">Maybe turn down the difficulty.</div>
+
+
+</body>
+</html>

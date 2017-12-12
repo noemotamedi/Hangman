@@ -1,0 +1,88 @@
+#title{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid;
+    border-bottom-color:black;
+    color:orange;
+    margin: auto;
+}
+
+#startGame{
+    border: 1px black solid;
+    position: relative;
+    margin: auto;
+    background-color:blue;
+    color:gold;
+    top: 260px;
+    width: 249px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+#reStart{
+    position: relative;
+    margin-left: 92%;
+    width:125px;
+    height:26px;
+    background-color:blue;
+    color:gold;
+    border-radius: 10px;
+}
+
+#chooseDifficulty{
+    position: relative;
+    margin: auto;
+    width:249px;
+    top: 275px;
+}
+
+#letters{
+    font-size: 50px;
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 100px;
+    width: 400px;
+    text-align:center;
+}
+
+#HangmanImage{
+    position: relative;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    text-align:center;
+}
+
+#ChooseLetter{
+    position:relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 150px;
+}
+
+.Won{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    font-size: 50px;
+    text-align:center;
+}
+
+.lost{
+    position: relative;
+    margin:auto;
+    width: 500px;
+    font-size: 50px;
+    text-align:center;
+}
+
+#otherLetters{
+    position: relative;
+    bottom: 310px;
+}
+
+#Chances{
+    position: relative;
+    bottom: 290px;
+}
